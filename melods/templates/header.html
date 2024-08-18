@@ -1,11 +1,9 @@
 <nav>
-
-
-    <label for="">melodsportfolio</label>
-    <div>
-        <a style="color:#ffffff;" href="{% url "home" %}">home</a>
-        <a style="color:#ffffff;" href="{% url "about" %}">about</a>
-        <a style="color:#ffffff;" href="{% url "skills" %}">skills</a>
-        <a style="color:#ffffff;" href="{% url "contact" %}">contact</a>
+    <label for="logo"></label>
+    <div class="pages-button">
+        <a href="{% url 'home' %}" class="nav-button">home</a>
+        <a href="{% url 'about' %}" class="nav-button">about</a>
+        <a href="{% url 'skills' %}" class="nav-button">skills</a>
+        <a href="{% url 'contact' %}" class="nav-button">contact</a>
     </div>
 </nav>

@@ -1,0 +1,39 @@
+.name {
+    display: flex;
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;      /* Center content vertically */
+    color: aqua;
+}
+
+nav {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    padding: 10px;
+}
+
+label {
+    font-size: 1.5rem; /* Adjust as needed */
+    color: #ffffff;
+    margin-bottom: 10px; /* Space between label and buttons */
+}
+
+.pages-button {
+    display: flex;
+    gap: 20px;              /* Add spacing between buttons */
+}
+
+.nav-button {
+    color: #ffffff;
+    text-decoration: none;  /* Remove underline from links */
+    font-size: 1.2rem;      /* Adjust font size if needed */
+    letter-spacing: 1px;    /* Space between each letter */
+    padding: 10px 20px;     /* Add padding around text */
+    background-color: #1dd277; /* Background color for buttons */
+    border-radius: 5px;     /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
