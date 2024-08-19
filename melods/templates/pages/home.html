@@ -1,21 +1,23 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
 
-<div>
-    <div>
+<div class="home">
+    <div class="description">
         <div class="name">
             <h1>Hi there i'm melods</h1>
+            <p >I'm into you</p>
+            <a href="{% url 'cv' %}">View Cv</a>
         </div>
-        <div class="image">py 
+        <div class="image">
+            <img src="{% static '/image/image.JPG' %}" alt="Image">
         </div>
-        <p style="color:#ffffff;">I'm into you</p>
-        <a style="color:#ffffff;" href="">About me</a>
-        <div>
-            <a style="color:#ffffff;" target='_blank' href="https://www.facebook.com/melodie.gardose">Facebook</a>
-            <a style="color:#ffffff;" target='_blank' href="https://www.instagram.com/me10dieees/">Instagram</a>
-            <a style="color:#ffffff;" target='_blank' href="https://x.com/melodayahh">Twitter</a>
-            <a style="color:#ffffff;" target='_blank' href="https://github.com/me10die?tab=repositories">Github</a>
-        </div>
+    </div>
+    <div class="socmed">
+        <a target='_blank' href="https://www.facebook.com/melodie.gardose">Facebook</a>
+        <a target='_blank' href="https://www.instagram.com/me10dieees/">Instagram</a>
+        <a target='_blank' href="https://x.com/melodayahh">Twitter</a>
+        <a target='_blank' href="https://github.com/me10die?tab=repositories">Github</a>
     </div>
 </div>
 

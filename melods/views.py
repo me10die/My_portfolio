@@ -12,3 +12,5 @@ class Skills(TemplateView):
 class Contact(TemplateView):
     template_name='pages/contact.html'
 
+class Cv(TemplateView):
+    template_name='pages/cv.html'
