@@ -1,3 +1,9 @@
+.body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+
 .background-image {
     width: 100%;
     height: 100%;
@@ -10,20 +16,24 @@
     position: fixed;
     z-index: -1;
 }
-
+  
 .name {
-    color: white;
+    color: black;
 
 }
 
 .name h1 {
-    
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.name p {
+    font-size: 30px;
 }
 
 .description {
     display: flex;
     align-items: center;
-    gap: 30em;
+    gap: 10em;
     margin-bottom: 10em;
 }
 
@@ -50,22 +60,27 @@ label {
 
 .pages-button {
     display: flex;
-    gap: 20px;              /* Add spacing between buttons */
+    justify-content: flex-end; /* Aligns the items to the right */
+    gap: 50px; /* Space between the items */
+    padding-left: 70em; /* Optional: Adds some space between the items and the right edge */
 }
 
 .nav-button {
-    color: #cf5252;
-    text-decoration: none;  /* Remove underline from links */
-    font-size: 1.2rem;      /* Adjust font size if needed */
-    letter-spacing: 1px;    /* Space between each letter */
-    padding: 10px 20px;     /* Add padding around text */
-    background-color: #1dd277; /* Background color for buttons */
-    border-radius: 5px;     /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    color:black;            /* Text color */
+    text-decoration: none;     /* Remove underline from links */
+    font-size: 1.2rem;         /* Adjust font size if needed */
+    letter-spacing: 1px;       /* Space between each letter */
+    padding: 10px 20px;        /* Add padding around text */
+    background-color: transparent; /* Transparent background */
+    border: 1px solid black; /* White border */
+    border-radius: 10em;       /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
 }
 
+/* Hover effect */
 .nav-button:hover {
-    background-color: #0056b3; /* Darker background color on hover */
+    background-color: black; /* White background on hover */
+    color: white;            /* Text color change on hover */
 }
 
 /* General container styling */
@@ -93,20 +108,25 @@ p {
 
 /* Styling the social media buttons */
 .socmed a {
-    display: inline-block;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.1rem;
-    padding: 8px 16px;
-    background-color: #28a745; /* Green background for social media buttons */
-    border-radius: 5px; /* Rounded corners */
-    margin: 5px; /* Space between each button */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    color:black;            /* Text color */
+    text-decoration: none;     /* Remove underline from links */
+    font-size: 1.2rem;         /* Adjust font size if needed */
+    letter-spacing: 1px;       /* Space between each letter */
+    padding: 10px 20px;        /* Add padding around text */
+    background-color: transparent; /* Transparent background */
+    border: 1px solid black; /* White border */
+    border-radius: 10em;       /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
 }
 
+.socmed{
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    gap: 30px; /* Space between the items */
+}
 /* Hover effect for social media buttons */
 .socmed a:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color:#e09915; /* Darker green on hover */
 }
 
 .image {
@@ -123,7 +143,7 @@ p {
 }
 
 .education {
-    color: white;
+    color: black;
 }
 
 .cv {
@@ -132,4 +152,41 @@ p {
     align-items: center;
     width: 100%;
     margin-top: 10em;
+}
+
+.skills {
+    display: flex;            /* Enable flexbox */
+    flex-direction: column;   /* Stack items vertically */
+    align-items: center;      /* Center items horizontally */
+    justify-content: center;  /* Center items vertically */
+    margin-top: 10em;
+    color: black;             /* Set the text color to white */
+}
+
+.professional-skills {
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    gap: 70px; /* Space between the items */
+    align-items: center;
+}
+
+.skills2 {
+    display: flex;            /* Enable flexbox */
+    flex-direction: column;   /* Stack items vertically */
+    align-items: center;      /* Center items horizontally */
+    justify-content: center;  /* Center items vertically */
+    margin-top: 5em;
+    color: black;             /* Set the text color to white */
+}
+
+.personal-skills {
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    gap: 70px; /* Space between the items */
+    align-items: center;
+}
+
+
+.contact {
+    color: white;
 }
