@@ -1,6 +1,6 @@
 .body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -159,16 +159,38 @@ p {
     flex-direction: column;   /* Stack items vertically */
     align-items: center;      /* Center items horizontally */
     justify-content: center;  /* Center items vertically */
-    margin-top: 10em;
+    margin-top: 5em;
     color: black;             /* Set the text color to white */
 }
 
 .professional-skills {
+   
+}
+
+.pro1 {
     display: flex;
     justify-content: flex-end; /* Aligns the items to the right */
     gap: 70px; /* Space between the items */
     align-items: center;
+    height: auto;
 }
+
+.pro2 {
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    gap: 70px; /* Space between the items */
+    align-items: center;
+    height: auto;
+}
+
+.pro3 {
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    gap: 70px; /* Space between the items */
+    align-items: center;
+    height: auto;  
+}
+
 
 .skills2 {
     display: flex;            /* Enable flexbox */
@@ -180,6 +202,17 @@ p {
 }
 
 .personal-skills {
+
+}
+
+.per1 {
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    gap: 70px; /* Space between the items */
+    align-items: center;
+}
+
+.per2 {
     display: flex;
     justify-content: flex-end; /* Aligns the items to the right */
     gap: 70px; /* Space between the items */
@@ -187,6 +220,12 @@ p {
 }
 
 
-.contact {
-    color: white;
+
+.contacts {
+    color:black;
+    margin-top: 5em;
+}
+
+.about {
+    color: #e09915;
 }
