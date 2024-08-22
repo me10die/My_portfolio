@@ -29,6 +29,18 @@
 .name p {
     font-size: 30px;
 }
+.name a {
+    color:white;            
+    text-decoration: none;    
+    font-size: 1.2rem;         
+    letter-spacing: 1px;      
+    padding: 10px 20px;        
+    background-color: black;
+    border: 1px solid black; 
+    border-radius: 1em;       
+    transition: background-color 0.3s, color 0.3s;
+    font-size: medium;
+}
 
 .description {
     display: flex;
@@ -130,8 +142,19 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-top: 10em;
+    justify-content: center;
+    width: 50em;
+    margin: 10em auto; 
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    padding: 2em;
+}
+
+.cv img {
+max-width: 50em;
+height: auto; 
 }
 
 .skills {
@@ -279,8 +302,65 @@ p {
 }
 
 .contacts {
-    color:black;
-    margin-top: 5em;
+    margin-right: 15em;
+    margin-left: 15em;  
+    margin-top: 10em;
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    padding: 2em;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+}
+
+.contacts h3 {
+    color:white;            
+    text-decoration: none;     
+    font-size: 1.2rem;        
+    letter-spacing: 1px;       
+    padding: 10px 20px;        
+    background-color: black; 
+    border: 1px solid black; 
+    border-radius: 10px;  
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 60em; 
+}
+
+
+.con1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10em;
+    margin-bottom: 5em;
+}
+
+
+.con2 {
+    display: flex;
+    align-items: center;
+    gap: 10em;
+    margin-bottom: 5em;
+}
+
+.con1 img {
+    max-width: 100%; 
+    height: auto;    
+    margin: 1em 0;   
+    display: block;  
+    border-radius: 0.5em; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.con2 img {
+    max-width: 100%; 
+    height: auto;    
+    margin: 1em 0;   
+    display: block;  
+    border-radius: 0.5em; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about {
