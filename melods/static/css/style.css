@@ -168,7 +168,7 @@ height: auto;
  
  }
 
-.skills h3 {
+.skills h4 {
     font-size:50px;
     align-items: center;
     justify-content: center;
@@ -239,7 +239,7 @@ height: auto;
     justify-content: center;  /* Center items vertically */
     margin-top: 10em;
     color: black;             /* Set the text color to white */
-}
+}   
 
 .personal-skills {
 }
